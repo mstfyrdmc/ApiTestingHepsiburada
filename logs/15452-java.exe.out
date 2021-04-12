@@ -1,0 +1,23 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1599milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1599"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62415"}
+{"logLevel":"info","message":"Listening on port:62415"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Tests.ApiTest.checkAllProductControl' and 'Tests.ApiTest.checkAllProductControl'"}
+{"logLevel":"debug","message":"Found Apideki ürünlerin varlığı kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ApiTest.checkProduct' and 'Tests.ApiTest.checkProduct'"}
+{"logLevel":"debug","message":"Found Urun Adi: {}, urun fiyati: {},Stok Durumu: {} olan ürün olduğu kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Tests.ApiTest.postProduct' and 'Tests.ApiTest.postProduct'"}
+{"logLevel":"debug","message":"Found Urun idsi: {}, urun adi: {}, urun fiyati: {},stok durumu {} özellikli ürün eklenir. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tApideki ürünlerin varlığı kontrol edilir. : public void checkAllProductControl()"}
+{"logLevel":"debug","message":"\tUrun Adi: {}, urun fiyati: {},Stok Durumu: {} olan ürün olduğu kontrol edilir. : public void checkProduct(String productName, ınt price, ınt unitsInStock)"}
+{"logLevel":"debug","message":"\tUrun idsi: {}, urun adi: {}, urun fiyati: {},stok durumu {} özellikli ürün eklenir. : public void postProduct(ınt id, String productName, ınt price, ınt unitsInStock)"}
+{"logLevel":"debug","message":"Executing 'Urun idsi: {}, urun adi: {}, urun fiyati: {},stok durumu {} özellikli ürün eklenir.' using 'class Tests.ApiTest.postProduct"}
